@@ -56,3 +56,73 @@ Datasets are tracked using a local DVC remote storage.
 
 ```bash
 pytest
+
+
+# Environment Setup
+
+## Clone Repository
+
+```bash
+git clone <repository-url>
+cd insurance-risk-analytics
+```
+
+## Create Virtual Environment
+
+### Using venv
+
+```bash
+python -m venv .venv
+```
+
+Activate environment:
+
+#### Windows (Git Bash)
+
+```bash
+source .venv/Scripts/activate
+```
+
+#### Windows (CMD)
+
+```bash
+.venv\Scripts\activate
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## Run Tests
+
+```bash
+pytest
+```
+
+## Run DVC Pipeline
+
+Pull tracked data:
+
+```bash
+dvc pull
+```
+
+Push tracked data:
+
+```bash
+dvc push
+```
+
+# Project Structure
+
+```text
+insurance-risk-analytics/
+├── data/
+├── notebooks/
+├── reports/
+├── src/
+├── tests/
+└── README.md
+```
