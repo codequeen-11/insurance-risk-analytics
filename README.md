@@ -42,3 +42,17 @@ dvc repro
 ```
 
 Datasets are tracked using a local DVC remote storage.
+
+
+## Project Workflow
+
+1. Data Exploration (EDA)
+2. Data Version Control with DVC
+3. Hypothesis Testing
+4. Predictive Modeling
+5. Risk-Based Pricing
+
+## Running Tests
+
+```bash
+pytest
