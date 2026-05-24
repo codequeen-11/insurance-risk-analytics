@@ -5,6 +5,7 @@ venv/
 .venv/
 # data/
 data/*.csv
+
 .ipynb_checkpoints/
 .DS_Store
 # data/raw/
